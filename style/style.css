@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+}
+ul,
+li {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: black;
+    height: 80px;
+
+}
+.header__inner {    /*Обертка*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    max-width: 1170px; /*Ширина контаинера, для адаптивности*/
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__nav {
+    margin-left: 15px;
+}
+.menu__list {
+    display: flex;
+    margin-top: 15px;
+    margin-left: -63px;
+}
+.menu__list a {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 45px;
+}
+.contact {
+    float: right;
+    margin-top: 15px;
+}
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+.header__phone,
+.header__email {
+     color:white;
+     letter-spacing: 0.24px;
+     line-height: 45px; 
+     position: relative;    
+}
+.header__phone {
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.header__phone:before {
+    content: "\f095";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: white;
+    top: -10px;
+}
+.header__email {
+    padding-left: 24px;
+}
+.header__email:before {
+    content: "\f003";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color:white;
+    top: -10px;
+}
+.fefhoto {
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    filter: grayscale(100%);
+}
+.fe__title {
+    margin: 1px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0;
+    padding-top: 293px;
+    padding-left: 138px;
+}
+.fe__item {
+    max-width: 555px;
+    margin-right: 35px;
+    color: white;
+}
+.about-me {
+    padding: 58px 0 180px;
+}
+.about-me__title {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.about-me__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    min-height: 440px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.about-me__music {
+    background-image: url(../image/music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 440px;
+    margin-right: 4px;
+}
+.about-me__dance {
+    background-image: url(../image/dance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 440px;
+    margin-right: 4px;
+}
+.about-me__coffee {
+    background-image: url(../image/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 440px;
+    margin-right: 4px;
+}
+.about-me__travell {
+    background-image: url(../image/trevell.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 440px;
+}
+.about__title {
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.about__text {
+    padding-top: 70px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.skills-slider {
+     margin-top: 77px;
+}
+.skills__title {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px; 
+    margin-bottom: 24px;
+}
+.slider__title {
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.slider__list {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.skills-slider__list {
+    padding-top: 7px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 130px;
+}
+.skills-slider__listjs {
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 130px;
+}
+.skills-slider__listjs li {
+    margin-top: 50px;
+}
+.skills-slider__list li {
+    margin-top: 50px;
+}
+.slider__inner {
+    padding-top: 55px;
+    position: relative;
+}
+.slider__item-html {
+    background-image: url(../image/slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+    filter: grayscale(100%);
+}
+.slider__item-css {
+    background-image: url(../image/css.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+    filter: grayscale(100%);
+}
+.slider__item-js {
+    background-image: url(../image/js.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+    filter: grayscale(100%);
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-track {
+    display: flex;
+}
+.slider__inner .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 50px;
+}
+.slider__inner .slick-arrow.slick-prev {
+    left: 76px;
+    background: url('../image/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+}
+.slider__inner .slick-arrow.slick-next {
+    right: 60px;
+    background: url('../image/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+}
+.slick-slide {
+    max-width: 100%;
+}
+.footer__item {
+    height: 400px;
+    background-color: black;
+    margin-top: 5px;
+
+}
+.footer__title {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+    line-height: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.footer__items {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 100px;
+    position: relative;
+}
+.footer-contact  a {
+    text-decoration: none;
+    color: white;
+}
+.footer-contact li{
+    margin-top: 25px;
+}
+.footer-contact {
+    margin-left: 32px;
+}
+.footer-nav {
+    padding-left: 76px;
+    border-left: 1px white solid;
+}
+.footer__img img {
+    width: 206px;
+    height: 260px;
+    margin-left: 250px;
+    top: -86px;
+    position: absolute;
+    filter: grayscale(100%);
+}
+
