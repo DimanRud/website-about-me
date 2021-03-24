@@ -196,7 +196,7 @@ li {
     line-height: 50px;
 }
 .slider__list {
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 100px;
 }
 .skills-slider__list {
@@ -293,7 +293,7 @@ li {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-right: 100px;
+    margin-right: 25px;
     position: relative;
 }
 .footer-contact  a {
